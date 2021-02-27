@@ -1,0 +1,32 @@
+.experience {
+  color: aliceblue;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.sub-title {
+  margin-left: 1rem;
+  line-height: 150%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.exp_card {
+  transition: all 0.3s ease;
+}
+
+.exp_card:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 960px) {
+}

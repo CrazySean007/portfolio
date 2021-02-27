@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid #242424;
+  width: 30rem;
+  padding: 1rem;
+  background-color: rgba(6, 6, 6, 0.3);
+  margin: 1rem 3rem;
+  border-radius: 2rem;
+  display: inline-block;
+}
+
+.card_img {
+  width: 100%;
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+}
+
+.card_img:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 80vw;
+    display: block;
+  }
+}

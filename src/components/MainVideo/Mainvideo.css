@@ -1,0 +1,16 @@
+.mainvideo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}

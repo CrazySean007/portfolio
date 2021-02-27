@@ -1,0 +1,35 @@
+.contact {
+  height: 80vh;
+}
+
+.main_part {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.contact_me {
+  text-align: center;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 800px) {
+  .contact_title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .contact_me {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
