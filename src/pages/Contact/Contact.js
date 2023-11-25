@@ -9,10 +9,10 @@ function Contact() {
       <div className="main_part">
         <h1 className="contact_title">
           <a
-            href="mailto:shuaim@usc.edu"
+            href="mailto:ms9632@outlook.com"
             style={{ textDecoration: "underline" }}
           >
-            shuaim@usc.edu
+            ms9632@outlook.com
           </a>
         </h1>
         <p className="contact_me">

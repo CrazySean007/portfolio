@@ -9,12 +9,13 @@ function Home() {
       <div className="main-content">
         <div className="left-part">
           <p className="sim_intro">
-            Explorer, Adventurer, Frontend Software Engineer to constantly
-            discover new areas
+            An Explorer, An Adventurer, A Fullstack Software Engineer to
+            constantly discover new areas and unknowns
           </p>
           <p className="cla_intro">
             <i className="fas fa-angle-double-right"></i>
-            &nbsp;&nbsp;UI/UX/CSS/REACT/CSS/HTML designer & learner
+            &nbsp;&nbsp;.NET CORE/RESTFUL API DESIGN/CSS/REACT/CSS/HTML designer
+            & learner
           </p>
         </div>
         <div className="right-part">

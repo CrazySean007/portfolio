@@ -5,20 +5,34 @@ import MainVideo from "../../components/MainVideo/Mainvideo";
 
 const exps = [
   {
+    title: "Fullstack Software Engineer",
+    company: "@Life Alert Emergency Response, Inc.",
+    description: [
+      "Led the migration of over 10 legacy components, transitioning from AngularJS and Windows Form to Angular 10 and .NET Core API",
+      "Designed and executed a comprehensive migration program, transitioning AT&T text service from SOAP to Rest API. This endeavor notably enhanced system stability and maintainability while optimizing integration processes",
+      "Pioneered an 80% efficiency boost for dispatch trainers by developing and implementing a Training Classroom and Admin training log with WebSocket, providing interactive training sessions and real-time feedback mechanisms",
+      "Streamline workflow for Billing, Shipping and Main Office departments by creating Shipping Charge Monitor and developing corresponding API with .Net Core",
+      "Implemented test-driven development methodologies while crafting a parking management system, resulting in a significant 50% increase in management efficiency",
+      "Develop SQL scripts to handle user requests on database records",
+    ],
+    start: "Apr 2021",
+    end: "Present",
+    img: "/images/lifealert.jpg",
+  },
+  {
     title: "Frontend Software Engineer",
     company: "@TableFlash Co.",
     description: [
-      "Utilize React to implement customer components and restaurant management system",
-      "Collaborate with three other engineers and maintain best version practice control using Git",
-      "Improve First Meaningful Paint(FMP) time by 30% faster by implementing Lazyload features",
-      "Expand user range with switching languages(Chinese and English) feature",
-      "Optimize food order logic by designing new order flows and UI patterns",
-      "Reform Log in/Sign up workflows with new UI and client-side encryption of password",
-      "Provide succinct and pretty home page UI by implementing two-column masonry to display restaurant deals",
+      "Collaborated with a team of three engineers to implement customer components and develop a restaurant management system using React",
+      "Achieved a 30% improvement in First Meaningful Paint (FMP) time by implementing Lazyload component",
+      "Expanded user accessibility by introducing language-switching capabilities (Chinese and English) to enhance the platform's global reach",
+      "Enhanced the efficiency of food ordering processes by designing and implementing new order flows and UI patterns. Streamlined the user experience to facilitate smoother navigation and improved order placement.",
+      "Reformed Log in/Sign up workflows with rediengined UI and client-side encryption of password",
+      "Created an aesthetically pleasing and user-friendly home page UI by implementing a two-column masonry layout to showcase restaurant deals succinctly and attractively",
     ],
     start: "Aug 2020",
     end: "Dec 2020",
-    imgs: ["/images/tableflash-1.png", "/images/tableflash-2.png"],
+    img: "/images/tableflash-1.png",
   },
   {
     title: "Online shopping mall management system",
@@ -30,17 +44,7 @@ const exps = [
     ],
     start: "Jun 2020",
     end: "Jul 2020",
-    imgs: ["/images/mall-1.png", "/images/mall-2.png"],
-  },
-  {
-    title: "Simple Search Engine for LA Times",
-    company: "@school project",
-    description: [
-      "Implemented a simple search engine backend and frontend using JavaScript and PHP",
-      "Build the search engine based on Apache Solr, crawl over 20,000 pages from LA Times and index the crawled pages for searching engines",
-      "Improve the ranking results by applying PageRank algorithm and compared with the results from Solr default ranks",
-    ],
-    start: "Jan 2020",
+    img: "/images/mall-1.png",
   },
   {
     title: "Weather Forecast Application based on Angular",
@@ -52,7 +56,6 @@ const exps = [
       "Launch a scalable web service using node.js to handle requests and process the JSON-format data returned",
     ],
     start: "Sept 2019",
-    end: "Sept 2019",
   },
 ];
 
