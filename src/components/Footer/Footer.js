@@ -7,10 +7,10 @@ function Footer() {
       <div className="footer_title">
         To discuss projects or opportunities get in touch at{" "}
         <a
-          href="mailto:shuaim@usc.edu"
+          href="mailto:ms9632@outlook.com"
           style={{ textDecoration: "underline", color: "lightblue" }}
         >
-          shuaim@usc.edu
+          ms9632@outlook.com
         </a>
       </div>
       <div className="contact_icons">
